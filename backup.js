@@ -4,6 +4,8 @@ const Content = document.getElementById("content")
 const button =  document.getElementById("button")
 const posts =  document.getElementById("posts")
 
+setTimeout(()=>{location.reload()}, 1000)
+
 //deleteAll()
 
 const nickName = JSON.parse(localStorage.getItem("nickname")) 
